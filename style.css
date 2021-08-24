@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Coiny&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amita:wght@700&family=Baloo+2:wght@600&family=NTR&display=swap');
+/* 
+font-family: 'Amita', cursive;
+font-family: 'Baloo 2', cursive;
+font-family: 'NTR', sans-serif;
+*/
+
+body{
+    background-color: #FAAA8D;
+    /* opacity: .5; */
+
+
+}
+
+h1{
+    text-align: center;
+    font-size: 5vw;
+    Color: #0B0500;
+}
+h3{
+    text-align: center;
+    font-size: 2vw;
+    Color: #0B0500;
+}
+
+#MainGameDiv {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+body>div.gamesetup{
+    border: 10px solid black;
+    margin: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+
+}
+
+
+
+/* div.tablediv{
+    background-color:#FAAA8D;
+    margin: auto;
+    border: 10px solid black;
+    padding: 1%;
+    width: 90%;
+    height: auto;
+} */
+
+table {
+    background-color: #FAAA8D;
+    margin: auto;
+    border: 1px hidden black;
+    padding: 1%;
+    /*width: 100%;*/
+    height: auto;
+    text-align: center;
+    vertical-align: middle;
+    border-collapse: collapse;
+}
+
+table>tbody>tr>td {
+    background-color: #FAAA8D;
+    margin: 0px;
+    border: 10px solid #0B0500;
+    padding-top: 1%;
+    text-align: center;
+    width: min(20vw, 20vh);
+    height: min(20vw, 20vh);
+
+}
+
+
+
+table>tbody>tr>td>input {
+    background-color: #FEEFDD;
+    margin: 0px;
+    border: 0px dashed #0B0500;
+    border-radius: 50px;
+    font-size: 10vw;
+    width: min(20vw, 20vh);
+    height: min(20vw, 20vh);
+    padding: 0%;
+
+
+}
+/*
+table>tbody>tr>td>input[disabled] {
+    background-color: orange;
+    color: black;
+    margin: 0px;
+    border: 3px dashed black;
+    border-radius: 50px;
+    padding-top: 50px 0%;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    font-size: 10vw;
+    width: min(20vw, 20vh);
+    height: min(20vw, 20vh);
+
+}*/
+
+table>tbody>tr>td>div{
+    background-color: #FEEFDD;
+    /* color: red; */
+    margin: auto;
+    padding: auto;
+    border: 3px hidden black;
+    border-radius: 50px;
+    font-size: 13vw;
+    width: min(20vw, 20vh);
+    height: min(20vw, 20vh);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font-family: 'Amita', cursive; */
+    font-family: 'Baloo 2', cursive;
+    /* font-family: 'NTR', sans-serif; */
+
+
+
+}
+
+
+
+
+
+
+/**/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+i want to see if i can add diffrent color layouts
+i am always going to need five colors
+
+Option 1 ----
+    Color for Lines         1-> 0B0500    ---- group 3
+    Color for background    2-> FAAA8D    ---- group 1
+    Color for grid squares  3-> FEEFDD    ---- group 2
+    Color for X             4-> FF4000    ---- TeamX
+    Color for O             5-> 50B2C0    ---- TeamO
+
+OPTION 2 ----
+    1-> 0B0500
+    2-> FAAA8D
+    3-> FEEFDD
+    4-> 18A999
+    5-> A33B20
+
+OPTION 3 ----
+    1-> 0B0500
+    2-> E18335
+    3-> 596F62
+    4-> FFE347
+    5-> 8E7DBE
+
+OPTION 4 ----
+    1-> EAD2AC
+    2-> 582B11
+    3-> 999AC6
+    4-> FE5D26
+    5-> 285943
+
+OPTION 5 ----
+    1-> FFFFFF
+    2-> 000000
+    3-> 7D7D7D
+    4-> DB3A34
+    5-> 177E89
+
+*/
